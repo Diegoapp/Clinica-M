@@ -1,0 +1,65 @@
+/* CSS Document */
+.css img{
+ float: left;
+
+ padding: 0px;
+ margin: 0x 0px 0px 0;
+ 
+ 
+}
+
+body{
+	 
+	 background-image: url('img/00001.jpg');
+	 background-repeat:no-repeat;
+	 background-size:1020px 645px;
+	 
+	}
+
+.ans {
+	position:fixed;
+	top:45px;
+}
+.solicitante{
+	position:fixed;
+	top:167px;
+	
+	}
+.contratado{
+	position:fixed;
+	top:138px;
+	left:210px;
+	
+	}	
+.conselho{
+		position:fixed;
+	   top:169px;
+	   left:336px;
+	
+	}	
+.numconselho{
+	position:fixed;
+	top:169px;
+	left:385px;
+
+	}	
+.uf{
+	position:fixed;
+	top:169px;
+	left:592px;
+
+	}	
+.cbo{
+	position:fixed;
+	top:169px;
+	left:635px;
+
+	}	
+.indicacaoclinica{
+	position:fixed;
+	top:207px;
+	left:202px;
+
+	
+	
+	}	

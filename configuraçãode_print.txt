@@ -1,0 +1,17 @@
+
+mozila
+
+
+abra uma aba no firefox e digite: about:config
+clique com o botão direito e vá em Nova preferência > Boolean
+cole este código: print.always_print_silent
+na tela seguinte selecione True
+Feito estes passos, toda vez que você receber uma impressão ela será enviada diretamente para a impressora. Aí surge outro problema: o Mozilla Firefox mantém como padrão a última impressora que você utilizou nele. Para resetar esta opção, ainda na aba about:config:
+
+procure a opção: print.print_printer
+clique com o botão direito e vá em Restaurar o padrão
+Ainda não acabou! Na próxima impressão o Mozilla vai armazenar novamente a impressora utilizada. Para que ele sempre utilize a impressora que é padrão do seu computador:
+
+procure a opção: print.save_print_settings
+dê dois cliques com o botão esquerto do mouse para que altere seu valor para False
+a linha selecionada ficará em negrito

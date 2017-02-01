@@ -1,0 +1,2458 @@
+/* CSS Document */
+
+
+	
+
+
+.bg img{
+	width:1100px;
+	margin-top:0;
+	margin-left:0;
+	height:730px;
+	z-index: 0;
+	
+	}
+.bg1 img{
+	width:1100px;
+	margin-top:445px;
+	margin-left:-206px;
+	height:730px;
+	z-index: 0;
+	
+	}	
+.bg2 img{
+	width:1100px;
+	margin-top:440px;
+	margin-left:-205px;
+	height:730px;
+	z-index: 0;
+	
+	}	
+.bg3 img{
+	width:1100px;
+	margin-top:410px;
+	margin-left:-207px;
+	height:730px;
+	z-index: 0;
+	
+	}
+	
+.bg4 img{
+	width:1100px;
+	margin-top:410px;
+	margin-left:-207px;
+	height:730px;
+	z-index: 0;
+	
+	
+	}		
+.bg5 img{
+	width:1100px;
+	margin-top:755px;
+	margin-left:-935px;
+	height:730px;
+	z-index:0;
+	
+	
+	}	
+.bg6 img{
+	width:1100px;
+	margin-top:442px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+	
+	
+	}
+.bg7 img{
+	width:1100px;
+	margin-top:410px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+	
+	
+	}	
+.bg8 img{
+	width:1100px;
+	margin-top:420px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+	
+	
+	}	
+.bg9 img{
+	width:1100px;
+	margin-top:430px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+	
+	
+	}	
+.karlane img{
+	width:1100px;
+	margin-top:440px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+	
+	
+	}
+.davi img{
+	width:1100px;
+	margin-top:0px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+}		
+
+					
+.bg13 img{
+	width:1100px;
+	margin-top:40px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+}
+.bg14 img{
+	width:1100px;
+	margin-top:20px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+}
+.bg15 img{
+	width:1100px;
+	margin-top:30px;
+	margin-left:-206px;
+	height:730px;
+	z-index:0;
+	
+	
+}
+	
+	
+	
+	
+.numeroaleatorio{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ans {
+	position:absolute;
+	top:51px;
+	margin-left:9px;
+}
+.solicitante{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratado{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselho{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselho{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.uf{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbo{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinica{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.cliente{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimg{
+     position:absolute;
+	 top:8px;	
+	 margin-left:2px;
+	
+	}
+.procedimento {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimento {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimento2 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimento2 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento2{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimento3 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento3 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento3{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento4 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento4 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento4{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento5 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimento5 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento5{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatorio{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ans1 {
+	position:absolute;
+	top:510px;
+	margin-left:-500px;
+}
+.solicitante1{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratado1{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselho1{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselho1{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.uf1{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbo1{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinica1{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.cliente1{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+
+.procedimento1 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimento1 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento1{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimento12 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimento12 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento12{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimento13 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento13 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento13{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento14 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento14 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento14{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento15 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimento15 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento15{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+
+.numeroaleatorio11{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+
+
+
+
+.ans10 {
+	position:absolute;
+	top:49px;
+	margin-left:10px;
+}
+.solicitante10{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratado10{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselho10{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselho10{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.uf10{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbo10{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinica10{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.cliente10{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimg10{
+     position:absolute;
+	 top:400px;	
+	 margin-left:-204px;
+	
+	}
+.procedimento10 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimento10 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento10{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimento111 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimento111 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento111{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimento122 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento122 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento122{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento133 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento133 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento133{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento144 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimento144 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento144{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatorio10{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ans1 {
+	position:absolute;
+	top:50px;
+	margin-left:9px;
+}
+.solicitante1{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratado1{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselho1{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselho1{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.uf1{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbo1{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinica1{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.cliente1{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimg1{
+     position:absolute;
+	 top:0px;	
+	 margin-left:-205px;
+	
+	}
+.procedimento1 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimento1 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento1{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimento12 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimento12 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento12{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimento13 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento13 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento13{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento14 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento14 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento14{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento15 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimento15 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento15{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+
+.numeroaleatorio11{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+	
+	
+	
+	
+	
+	
+.anss {
+	position:absolute;
+	top:50px;
+	margin-left:9px;
+}
+.solicitantee{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadoo{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhoo{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselhoo{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.uff{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cboo{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicaa{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientee{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgg{
+     position:absolute;
+	 top:423px;	
+	 margin-left:-206px;
+	
+	}
+.procedimentoo {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentoo {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentoo{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentoo2 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentoo2 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentoo2{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentoo3 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentoo3 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentoo3{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentoo4 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentoo4 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentoo4{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentoo4 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentoo4 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentoo4{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentoo5 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentoo5 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentoo5{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+
+.numeroaleatorioo{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+	
+/* Parti da estilização da 4 folha bg */	
+	
+.numeroaleatoriobg4{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ansbg4 {
+	position:absolute;
+	top:51px;
+	margin-left:9px;
+}
+.solicitantebg4{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadobg4{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhobg4{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselhobg4{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.ufbg4{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbobg4{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicabg4{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientebg4{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgbg4{
+     position:absolute;
+	 top:423px;	
+	 margin-left:-206px;
+	
+	}
+.procedimentobg4 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentobg4 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg4{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentobg41 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg41 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg41{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentobg42 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg42 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg42{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg43 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg43 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg43{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg44 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg44 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg44{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatoriobg4{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}		
+/* 6 bg5 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */	
+
+.numeroaleatoriobg5{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ansbg5 {
+	position:absolute;
+	top:51px;
+	margin-left:9px;
+}
+.solicitantebg5{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadobg5{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhobg5{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselhobg5{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.ufbg5{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbobg5{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicabg5{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientebg5{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgbg5{
+     position:absolute;
+	 top:770px;	
+	 margin-left:-933px;
+	
+	}
+.procedimentobg5 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentobg5 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg5{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentobg51 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg51 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg51{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentobg52 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg52 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg52{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg53 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg53 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg53{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg54 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg54 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg54{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatoriobg5{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}		
+
+/* procedimento para  arrumar bg6 pagina 7    */
+
+.numeroaleatoriobg6{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ansbg6 {
+	position:absolute;
+	top:51px;
+	margin-left:9px;
+}
+.solicitantebg6{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadobg6{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhobg6{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselhobg6{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.ufbg6{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbobg6{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicabg6{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientebg6{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgbg6{
+     position:absolute;
+	 top:455px;	
+	 margin-left:-204px;
+	
+	}
+.procedimentobg6 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentobg6 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg6{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentobg61 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg61 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg61{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentobg62 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg62 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg62{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg63 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg63 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg63{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg64 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg64 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg64{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatoriobg6{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}		
+
+/* bg7 pagina 8 de estilo */
+
+.numeroaleatoriobg7{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ansbg7 {
+	position:absolute;
+	top:51px;
+	margin-left:9px;
+}
+.solicitantebg7{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadobg7{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhobg7{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselhobg7{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.ufbg7{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbobg7{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicabg7{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientebg7{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgbg7{
+     position:absolute;
+	 top:423px;	
+	 margin-left:-204px;
+	
+	}
+.procedimentobg7 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentobg7 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg7{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentobg71 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg71 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg71{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentobg72 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg72 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg72{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg73 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg73 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg73{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg74 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg74 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg74{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatoriobg7{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}
+
+
+/*  bg8 pagina 9          */
+
+
+.numeroaleatoriobg8{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ansbg8 {
+	position:absolute;
+	top:50px;
+	margin-left:9px;
+}
+.solicitantebg8{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadobg8{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhobg8{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselhobg8{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.ufbg8{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbobg8{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicabg8{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientebg8{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgbg8{
+     position:absolute;
+	 top:434px;	
+	 margin-left:-206px;
+	
+	}
+.procedimentobg8 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentobg8 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg8{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentobg81 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg81 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg81{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentobg82 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg82 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg82{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg83 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg83 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg83{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg84 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg84 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg84{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatoriobg8{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}
+/*  bg9 pagina 10          */
+
+
+.numeroaleatoriobg9{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ansbg9 {
+	position:absolute;
+	top:50px;
+	margin-left:9px;
+}
+.solicitantebg9{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadobg9{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhobg9{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	}	
+.numconselhobg9{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.ufbg9{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbobg9{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicabg9{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientebg9{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgbg9{
+     position:absolute;
+	 top:444px;	
+	 margin-left:-206px;
+	
+	}
+.procedimentobg9 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentobg9 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg9{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentobg91 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg91 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg91{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentobg92 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg92 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg92{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg93 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg93 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg93{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg94 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg94 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg94{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatoriobg9{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}
+/*  bg10 pagina 11          */
+
+.numeroaleatoriobg4{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ansbg4 {
+	position:absolute;
+	top:51px;
+	margin-left:9px;
+}
+.solicitantebg4{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratadobg4{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselhobg4{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselhobg4{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.ufbg4{
+	position:absolute;
+	top:0px;
+	left:221px;
+
+	}	
+.cbobg4{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinicabg4{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.clientebg4{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimgbg4{
+     position:absolute;
+	 top:423px;	
+	 margin-left:-206px;
+	
+	}
+.procedimentobg4 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimentobg4 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg4{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimentobg41 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg41 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg41{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimentobg42 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg42 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg42{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg43 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg43 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg43{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimentobg44 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg44 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimentobg44{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatoriobg4{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}		
+/* 6 bg5 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */	
+
+.numeroaleatoriobg1000{
+    position:absolute;
+	top:-318px;
+	left:730px;
+	
+	}	
+.ans100 {
+	position:absolute;
+	top:51px;
+	margin-left:9px;
+}
+.solicitante100{
+	position:absolute;
+	left:-210px;
+	top:33px;
+	white-space:nowrap;
+	
+	}
+.contratado100{
+	position:absolute;
+	left:-220px;
+	top:39px;
+	white-space:nowrap;
+	}	
+.conselho100{
+	 position:absolute;
+	 left:352px;
+	 top:0px;
+	
+	
+	}	
+.numconselho100{
+	position:absolute;
+	top:0px;
+	left:54px;
+
+	}	
+.uf100{
+	position:absolute;
+	margin-top:-30px;
+	left:221px;
+
+	}	
+.cbo100{
+	position:absolute;
+	top:0px;
+	left:49px;
+
+	}	
+.indicacaoclinica100{
+	position:absolute;
+	left:-470px;
+	top:48px;
+    white-space:nowrap;
+
+	}	
+.cliente100{
+	position:absolute;
+	left:430px;
+	top:68px;
+    white-space:nowrap;
+	
+	}
+	
+.convenioimg100{
+     position:absolute;
+	 top:452px;	
+	 margin-left:-205px;
+	
+	}
+.procedimento100 {
+	position:absolute;
+	top:28px;
+    left:-194px;
+	
+	}
+.codigo_procedimento100 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento100{
+	position:absolute;
+	top:0px;
+	left:150px;
+
+	}	
+.procedimento1200 {
+	position:absolute;
+	top:13px;
+    left:-183px;
+	
+	}
+.codigo_procedimentobg1200 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento1200{
+	position:absolute;
+	top:0px;
+	left:150px;
+}	
+.procedimento1300 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento1300 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento1300{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento1400 {
+	position:absolute;
+	top:12px;
+    left:-183px;
+	
+	}
+.codigo_procedimento1400 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento1400{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.procedimento1500 {
+	position:absolute;
+	top:14px;
+    left:-183px;
+	
+	}
+.codigo_procedimento1500 {
+	position:absolute;
+	top:0px;
+	left:33px;
+	
+	}
+.descricao_procedimento1500{
+	position:absolute;
+	top:0px;
+	left:150px;
+}
+.numeroaleatorio1000{
+    position:absolute;
+	top:-400px;
+	left:730px;
+	
+}		
+	
+/*--------------------------------------------------------*/
+
+.karlaneimg{
+     position:absolute;
+	 top:450px;	
+	 margin-left:-202px;
+	}
+
+.anskarlane {
+	position:absolute;
+	top:504px;
+	left:-197px;
+	
+}
+.clientekarlane{
+	position:absolute;
+	top:571px;
+	left:234px;
+	
+	
+	}
+
+.contratadokarlane{
+	position:absolute;
+	top:612px;
+	left:20px;
+	
+	
+	}
+.solicitantekarlane{
+    position:absolute;
+	top:644px;
+	left:-197px;	
+	
+	}
+.conselhokarlane{
+	position:absolute;
+	top:645px;
+	left:156px;
+	
+	
+	}
+
+.numconselhokarlane{
+	 position:absolute;
+	 top:645px;
+	 left:210px;
+
+	}
+.ufkarlane{
+	position:absolute;
+	top:645px;
+	left:431px;
+	
+	
+	}
+.cbokarlane{
+	position:absolute;
+	top:645px;
+	left:479px;
+	
+	
+	}
+.indicacaoclinicakarlane{
+	position:absolute;
+	top:692px;
+	left:9px;
+	
+	
+	}
+.procedimentokarlane{
+	position:absolute;
+	top:720px;
+	left:-185px;
+	
+	
+	
+	}
+.codigo_procedimentokarlane{
+	position:absolute;
+	top:720px;
+	left:-150px;
+	
+	}
+.descricao_procedimentokarlane{
+	position:absolute;
+	top:720px;
+	
+	
+	}
+.procedimentokarlane2{
+	position:absolute;
+	top:733px;
+	left:-185px;
+	
+	
+	
+	}
+.codigo_procedimentokarlane2{
+	position:absolute;
+	top:733px;
+	left:-150px;
+	
+	}
+.descricao_procedimentokarlane2{
+	position:absolute;
+	top:733px;
+	
+	
+	}	
+.procedimentokarlane3{
+	position:absolute;
+	top:746px;
+	left:-185px;
+	
+	
+	
+	}
+.codigo_procedimentokarlane3{
+	position:absolute;
+	top:746px;
+	left:-150px;
+	
+	}
+.descricao_procedimentokarlane3{
+	position:absolute;
+	top:746px;
+	
+	
+	}
+.procedimentokarlane4{
+	position:absolute;
+	top:759px;
+	left:-185px;
+	
+	
+	
+	}
+.codigo_procedimentokarlane4{
+	position:absolute;
+	top:759px;
+	left:-150px;
+	
+	}
+.descricao_procedimentokarlane4{
+	position:absolute;
+	top:759px;
+	
+	
+	}
+.procedimentokarlane5{
+	position:absolute;
+	top:772px;
+	left:-185px;
+	
+	
+	
+	}
+.codigo_procedimentokarlane5{
+	position:absolute;
+	top:772px;
+	left:-150px;
+	
+	}
+.descricao_procedimentokarlane5{
+	position:absolute;
+	top:772px;
+	
+	
+	}									
+.botao {
+		position:absolute;
+		top: 45px;
+		left: 0px;
+	}
+
+/* pagina 12 o retorno do trauma */
+.daviimg{
+     position:absolute;
+	 top:1200px;
+	 left:-198px	
+	
+	}
+
+.coment{
+	display:none;	
+	
+	}
+	
+	}
