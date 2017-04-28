@@ -91,7 +91,7 @@ $unicos =$_GET["unicos"];
 <img src="img/00001.jpg"/>
 </div>
  
-<div class="convenioimg"><img src="<?php echo $imagem ; ?>" width="80%" height="70%" /><div> 
+<div class="convenioimg"><img src="<?php echo $imagem ; ?>" width="50%" height="50%" /><div> 
 
 <div class="ans" style="letter-spacing:6px; font-size:13px; font-family:Arial, Helvetica, sans-serif; color:#333;"><b><?php echo $ans; ?></b><div> 
 
@@ -160,7 +160,7 @@ $unicos =$_GET["unicos"];
 	}	
 .ans {
 	position:absolute;
-	top:50px;
+	top:54px;
 	margin-left:8px;
 }
 .solicitante{
@@ -218,7 +218,7 @@ $unicos =$_GET["unicos"];
 	
 .convenioimg{
      position:absolute;
-	 top:8px;	
+	 top:4px;	
 	 margin-left:2px;
 	
 	}

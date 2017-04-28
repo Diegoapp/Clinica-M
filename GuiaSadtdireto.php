@@ -1534,7 +1534,7 @@ $numeroaleatorio=rand(200, 100000000000);
 	}	
 .ans {
 	position:absolute;
-	top:50px;
+	top:54px;
 	margin-left:8px;
 }
 .solicitante{

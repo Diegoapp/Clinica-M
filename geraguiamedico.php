@@ -195,7 +195,7 @@ echo ' <select id="selectError" name="medico" data-rel="chosen">';
 
                   $conn = new PDO('mysql:host=localhost;dbname=clinica', $username, $password);	
 // Seleciona o Banco de dados através da conexão acima
-                 $sql = "SELECT * FROM cid";
+                 $sql = "SELECT * FROM cid WHERE id_medico = $medicogeral ";
                  $resultado = $conn->query($sql);
                    while($row = $resultado->fetch()) {
 				   
@@ -214,8 +214,9 @@ echo ' <select id="selectError" name="medico" data-rel="chosen">';
   
 
     
-    <br>
-    <input type="hidden" name="acao" value="">
+   </br>
+   
+ <input type="hidden" name="acao" value="">
  <button type="submit"  value="" nome="send" id="send" class="btn btn-default">Visualizar</button>
  <button type="submit"  value="" nome="send" id="send" onClick="imprimir()" class="btn btn-default">imprimir</button>
  

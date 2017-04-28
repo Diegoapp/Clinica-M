@@ -22,6 +22,67 @@ if ( !isset($_SESSION['medico_crm']) and !isset($_SESSION['medico_senha']) ) {
 
 ?>
 
+<?php
+
+if(isset($_POST['acao']) && $_POST['acao'] == "enviado"){
+
+
+
+try{
+  // Faz conexão com banco de daddos
+  $pdo = new PDO("mysql:host=localhost;dbname=clinica;","root", "");
+  
+  
+}catch(PDOException $e){
+  // Caso ocorra algum erro na conexão com o banco, exibe a mensagem
+  echo 'Falha ao conectar no banco de dados: '.$e->getMessage();
+  die;
+}
+ini_set('default_charset','utf8');
+
+
+$nome  = utf8_decode($_POST['nome']);
+$num = $_POST['num'];
+
+
+
+
+
+
+$statement = $pdo->prepare('INSERT INTO cid (id_medico, codigo_cid, descricao_cid) VALUES (:medico, :num, :nome)');
+
+// Filtra os dados e armazena em variáveis (o filtro padrão é FILTER_SANITIZE_STRING que remove tags HTML)
+
+
+
+
+
+// Adiciona os dados acima para serem executados na sentença
+$statement->bindParam(':nome',     $nome);
+$statement->bindParam(':num', $num);
+$statement->bindParam(':medico', $medicogera);
+
+
+
+// Executa a sentença já com os valores
+if($statement->execute()){
+  // Definimos a mensagem de sucesso
+  echo '<script>alert("Parabens! cid10 Cadastrado com sucesso!"); </script>'; 
+  echo '<script> window.close(); </script>';
+  
+}else{
+  // Definimos a mensagem de erro
+  echo '<script>alert("0.0! Erro ao Cadastrar "); </script>'; 
+  echo '<script> window.close(); </script>';
+}
+	
+	
+	}
+
+
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,8 +96,8 @@ if ( !isset($_SESSION['medico_crm']) and !isset($_SESSION['medico_senha']) ) {
  
     -->
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="10">
     <title>Sistema de Clinica Inteligente</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
     <meta name="author" content="Muhammad Usman">
@@ -81,18 +142,18 @@ if ( !isset($_SESSION['medico_crm']) and !isset($_SESSION['medico_senha']) ) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"> <!--<img alt="Sistema Clinica " src="img/" class="hidden-xs"/>-->
+            <a class="navbar-brand" href="inicio.php"> <img alt="Sistema Clinica " src="img/" class="hidden-xs"/>
                 <span>Clinica</span></a>
 
             <!-- user dropdown starts -->
-            <div class="btn-group pull-right">
+             <div class="btn-group pull-right">
                 <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
+                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> Administração</span>
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                   <li><a href="novocid10.php">cid10</a></li> 
-                     <li class="divider"></li>
+                     <li><a href="medico_atendimentoview.php">Atendimento</a></li>
+                      <li class="divider"></li>
                     <li><a href="lagout.php">Sair</a></li>
                 </ul>
             </div>
@@ -190,238 +251,66 @@ if ( !isset($_SESSION['medico_crm']) and !isset($_SESSION['medico_senha']) ) {
             <!-- content starts -->
             <div>
     <ul class="breadcrumb">
+       
         <li>
-            <a href="#">Home</a>
+            <a href="medico_atendimentoview.php">Atendimento</a>
         </li>
-        <li>
-            <a href="#">Sistema</a>
+         <li>
+            <a href="novocbo.php">Cid10</a>
         </li>
     </ul>
 </div>
-<!--<div class=" row">
-    <div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="Novo Cliente." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-user blue"></i>
 
-            <div>Total de Clientes </div>
-            <div><?php// echo $NumeroLinhas;  ?></div>
-           <!-- <span class="notification"></span>
-        </a>
-    </div>-->
 
-    <!--<div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="Novo Médico" class="well top-block" href="medicos.php">
-            <i class="glyphicon  glyphicon-user blue"></i>
-
-            <div>Total de Médicos </div>
-            <div><?php// echo $numeromedico; ?></div>
-           <!-- <span class="notification green">0</span> -->
-        </a>
-    </div>
-
- <!--   <div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="Verificação de Finanças" class="well top-block" href="#">
-            <i class="glyphicon glyphicon-user blue"></i>
-
-            <div>CBO</div>
-            <div><?php // echo $numerocbo; ?></div>
-           <!-- <span class="notification yellow">$0</span> -->
-      <!--  </a> -->
-  <!--  </div>
-
-    <div class="col-md-3 col-sm-3 col-xs-6">
-        <a data-toggle="tooltip" title="30 novas mensagens ." class="well top-block" href="#">
-            <i class="glyphicon glyphicon-user blue"></i>
-
-            <div>Usuarios</div>
-            <div>60</div>
-          <span class="notification blue">0</span> 
-        </a>
-    </div>
-</div>-->
 
 <div class="row">
     <div class="box col-md-12">
-    <div class="box-inner">
-    <div class="box-header well" data-original-title="">
-        <h2><i class="glyphicon glyphicon-user"></i> Clientes </h2>
+        <div class="box-inner">
+            <div class="box-header well" data-original-title="">
+                <h2><i class="glyphicon glyphicon-edit"></i>     Cadastro do cid10  </h2>
 
-        <div class="box-icon">
-            <a href="#" class="btn btn-setting btn-round btn-default"><i class="glyphicon glyphicon-cog"></i></a>
-            <a href="#" class="btn btn-minimize btn-round btn-default"><i
-                    class="glyphicon glyphicon-chevron-up"></i></a>
-            <a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
-        </div>
-    </div>
-    <div class="box-content">
-    <!--<div class="alert alert-info"> <a class="btn btn-danger" onClick="vai()" href="#">
- <i class="glyphicon glyphicon-edit icon-white"></i>
- Clientes
-</a> <a href="" target="_blank"></a></div> -->
-    <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
-    <thead>
-    <tr>
-        <th>ID</th>
-        <th>Nome</th>
-        <th>Convênio</th>
-        <th>Atendimento</th>
-        <th>Configurações</th>
-    </tr>
-    </thead>
-    <tbody>
-   
-    
-    </tr>
-   
-   
-
-<?php
-// Conexão ao banco
-
-include ('classe/conexao.php');
-
-$conectar = new conexao(); 
-$conectar -> conectar();
-
-
-// Seleciona o Banco de dados através da conexão acima
-
-
-
-if($conectar){
-
-$sqlconvenios ="SELECT clientes.convenio, clientes.atendimento, clientes.id, clientes.nome, convenios.id_convenios, convenios.nome_convenio FROM clientes INNER JOIN convenios on clientes.convenio = convenios.id_convenios where clientes.atendimento = 1";
-
-$consulta = mysql_query($sqlconvenios);
-
-// Armazena os dados da consulta em um array 
-
-
-
-while( $registro = mysql_fetch_assoc($consulta)){
-
-echo '<tr>';
-
-echo '<td class="center"> '.$registro["id"].'</td>';
-
-echo '<td class="center"> '.$registro["nome"].'</td>';
-
-echo '<td class="center">'.utf8_encode($registro["nome_convenio"]).'</td>';
-
-if( $registro["atendimento"]==1){
-echo '<td class="center"> <span class="label-success label label-default">Aguardando</span></td>';
-}else {
-	
-	echo '<td class="center">  <span class="label-default label label-danger">Não Aguardando</span> </td>';
-	}
-
-
-echo ' <td class="center">';
-
-echo ' <a class="btn btn-info" onclick="funcaodeleta('.$registro["id"].')" href="#">';
-echo ' <i class="glyphicon  glyphicon-edit icon-white"></i>';
-echo ' Gerar Guia';
-echo ' </a>';
-
-echo ' <a class="btn btn-info" onclick="funcaoview('.$registro["id"].')" href="#">';
-echo ' <i class="glyphicon glyphicon-zoom-in icon-white"></i>';
-echo ' View'; 
-echo ' </a>'; 
-echo ' <a class="btn btn-info" onclick="funcaoedita('.$registro["id"].')" href="#">';
-echo ' <i class="glyphicon glyphicon-edit icon-white"></i>';
-echo ' Edit'; 
-echo ' </a>';
-
-echo ' <a class="btn btn-danger" onClick="funcaoatendimento('.$registro["id"].')" href="#">';
-echo '<i class="glyphicon glyphicon-edit icon-white"></i>';
-echo 'Fechar Atendimento';
-echo '</a> <a href="" target="_blank"></a>'; 
- 
-
-
-echo ' </td>';
-echo ' </tr>';
-
-
-}
-
-
-}
-
-?>
-
-<script>
-function funcaoview(get) {
-  
-  window.open('/viewClientes.php?id='+get+'', 'Pagina', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=YES, TOP=10, LEFT=10, WIDTH=650, HEIGHT=400'
-  ); 
-}
-
-function funcaoedita(get) {
-	
-	 window.open('/editaclientes.php?id='+get+'', 'Pagina', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=YES, TOP=10, LEFT=10, WIDTH=650, HEIGHT=400'
-  ); 
-
-	}
-
-
-function funcaodeleta(get,id) {
-	 var medicogeral =  "<?php echo $medicogera ?>"; 
-	
-	 window.open('/geraguiamedico.php?id_cliente='+get+'&medicogeral='+medicogeral+'', 'Pagina', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=YES, TOP=10, LEFT=10, WIDTH=650, HEIGHT=400'
-  ); 
-
-	}
-	
-	function vai() {
-	
-	 window.location.assign("/iniciosec.php");
-	
-	}
-	
-	function funcaoatendimento(get) {
-	
-	 window.open('/fecharatendimento.php?id='+get+'', 'Pagina', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=YES, TOP=10, LEFT=10, WIDTH=450, HEIGHT=200'
-  ); 
-	
-	}
-</script>
-
-   
-    
-    </tbody>
-    </table>
-    </div>
-    </div>
-    </div>
-                    
-                    
-                    
+                <div class="box-icon">
+                    <a href="#" class="btn btn-setting btn-round btn-default"><i
+                            class="glyphicon glyphicon-cog"></i></a>
+                    <a href="#" class="btn btn-minimize btn-round btn-default"><i
+                            class="glyphicon glyphicon-chevron-up"></i></a>
+                    <a href="#" class="btn btn-close btn-round btn-default"><i
+                            class="glyphicon glyphicon-remove"></i></a>
                 </div>
-                <!-- Ads, you can remove these -->
-                
-
-                <div class="col-lg-5 col-md-12 visible-xs center-text">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- Charisma Demo 5 -->
-                    <ins class="adsbygoogle"
-                         style="display:inline-block;width:250px;height:250px"
-                         data-ad-client="ca-pub-5108790028230107"
-                         data-ad-slot="8957582309"></ins>
-                
+            </div>
+            <div class="box-content">
+     <form role="form"  action="" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Codigo cid:</label>
+                        <input type="num" name="num" class="form-control" id="exampleInputEmail1" placeholder="código do cid10">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Descrição cid:</label>
+                        <input type="nome" name="nome" class="form-control" id="exampleInputEmail1" placeholder="descrição do cid10">
+                    </div>
+                   
+	
+                        </select>
+                    </div>
                 </div>
-                <!-- Ads end -->
+                <!--   <input type="hidden" name="acao" value="enviado"> -->
+                    <input type="hidden" name="acao" value="enviado"> 
+                    <button type="submit" value="acao" class="btn btn-default">Cadastrar</button>
+                </form>
 
             </div>
         </div>
-    </div>
-</div>
+    </div> </div>
+   
+
+  
 
 <div class="row">
   <!--/span-->
   <!--/span-->
     <!--/span-->
 </div><!--/row-->
+
 
 <div class="row">
   <!--/span-->
@@ -436,7 +325,7 @@ function funcaodeleta(get,id) {
     
         
             <!--End mc_embed_signup-->
-        </div>
+</div>
 
     </div>
     <!-- Ad ends -->
@@ -450,10 +339,10 @@ function funcaodeleta(get,id) {
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h3>Settings</h3>
+                    <h3></h3>
                 </div>
                 <div class="modal-body">
-                    <p>Here settings can be configured...</p>
+                    <p></p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
@@ -464,9 +353,6 @@ function funcaodeleta(get,id) {
     </div>
 
     <footer class="row">
-        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="#" target="_blank">Clinica Inteligente
-               </a> 2017</p>
-
       <!--  <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a
                 href="">Clinicas</a></p> -->
     </footer>
@@ -510,7 +396,16 @@ function funcaodeleta(get,id) {
 
 
 
+<script>
 
+function funcaoedita(get) {
+	
+	 window.open('http://localhost/Clinica/myprojeto/auteraclientes.php?id='+get+'', 'Pagina', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=YES, TOP=10, LEFT=10, WIDTH=650, HEIGHT=400'
+  ); 
+
+	}
+
+</script>
 
 </body>
 </html>
