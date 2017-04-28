@@ -1680,11 +1680,16 @@ $numeroaleatorio=rand(200, 100000000000);
 }
 .botao {
 		position:absolute;
-		top: 45px;
-		left: 0px;
+		top: -270px;
+		left: 730px;
 	}
-
-			
+.impri{
+	position:absolute;
+		top: -300px;
+		left: 730px;
+	
+	
+	}			
 </style>
 
 <style media="print">
